@@ -3,12 +3,14 @@
   <HelloWorld msg="Welcome to Your Vue.js App"/>-->
   <!--Inventario/-->
   <!--Bodega/-->  
- <Producto/>
+  <Listas/>
+ <!--Producto/-->
 </template>
 
 <script>
 //import HelloWorld from './components/HelloWorld.vue'
-import Producto from './components/Producto.vue';
+//import Producto from './components/Producto.vue';
+import Listas from './components/Listas.vue';
 //import Bodega from './components/Bodega.vue';
 //import Inventario from './components/Inventario.vue';
 
@@ -16,9 +18,10 @@ export default {
   name: 'App',
   components: {
     //Bodega
-    Producto
-    
+    //Producto
     //Inventario
+    
+    Listas
 }
 }
 </script>
